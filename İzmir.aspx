@@ -1,0 +1,393 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="İzmir.aspx.cs" EnableEventValidation="false" Inherits="İzmir" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>İzmir</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Wrapper -->
+        <div id="wrapper" class="divided">
+
+            <!-- One -->
+            <section class="banner style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
+                <div class="content">
+                    <h1>Izmir</h1>
+                    <p class="major" align="justify">
+                        Izmir is a province of Turkey and the third most populated city, according to 2016 TURKSTAT data, the population of İzmir is 4.223.545.
+                        <br />
+                        <br />
+                        Located in the western part of the Anatolian Peninsula, in the middle of the Aegean Region and around the Gulf of Izmir, the city is an 
+                        important exhibition center and port city that organizes İzmir International Fair every year.
+                        <br />
+                        <br />
+                        It is the twenty third largest province of the country as an area.
+                        Aegean Sea and Aegean Islands in the west, Aydin in the south, Balıkesir in the north and Manisa in the east.
+                        <br />
+                        <br />
+                        In the west of İzmir, Çeşme Peninsula stretches by sea, beaches and thermal centers.
+                        <br />
+                        <br />
+                        Ephesus, one of the most famous cities of antiquity, was one of the largest cities in the world during Roman empire.
+                        Ephesus, which contains all the riches of all Ionian cultures, also announced its name with intense artistic activities.
+                        <br />
+                        <br />
+                    For this purpose, this city was called "Güzel İzmir", "Eski İzmir" and "la Perle de l'Ionie" (The Pearl of Ionia).
+
+                </div>
+                <div class="image">
+                    <img src="images/izmir.jpg" alt="" />
+                </div>
+            </section>
+            <!-- Five -->
+            <section class="wrapper style1 align-center">
+                <div class="inner">
+                    <h2>Places to Visit in Izmir</h2>
+                </div>
+
+                <!-- Gallery -->
+                <div class="gallery style2 medium lightbox onscroll-fade-in">
+                    <article>
+                        <a href="images/gallery/fulls/izmir/Celsus-Kütüphanesi-gezilesiyercom.jpg" class="image">
+                            <img src="images/gallery/thumbs/izmir/Celsus-Kütüphanesi-gezilesiyercom.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Celcus Library</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/izmir/Çeşme-Yarımadası-izmir.jpg" class="image">
+                            <img src="images/gallery/thumbs/izmir/Çeşme-Yarımadası-izmir.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Cesme Peninsula</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/izmir/EkmeksizPlaj-izmir.jpg" class="image">
+                            <img src="images/gallery/thumbs/izmir/EkmeksizPlaj-izmir.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Ekmeksiz Beach</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/izmir/foca-plaji.jpg" class="image">
+                            <img src="images/gallery/thumbs/izmir/foca-plaji.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Foca Beach</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/izmir/Gölcük-Yaylası-izmir.jpg" class="image">
+                            <img src="images/gallery/thumbs/izmir/Gölcük-Yaylası-izmir.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Golcuk Plateau</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/izmir/İzmir-Kuş-Cenneti.jpg" class="image">
+                            <img src="images/gallery/thumbs/izmir/İzmir-Kuş-Cenneti.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>İzmir Bird Heaven</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/izmir/Karaburun-Yarımadası-izmir.jpg" class="image">
+                            <img src="images/gallery/thumbs/izmir/Karaburun-Yarımadası-izmir.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Karaburun Peninsula</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/izmir/Konak-meydan.jpg" class="image">
+                            <img src="images/gallery/thumbs/izmir/Konak-meydan.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Konak Square</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/izmir/Nebiler-Şelalesi-izmir.jpg" class="image">
+                            <img src="images/gallery/thumbs/izmir/Nebiler-Şelalesi-izmir.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Nebiler Waterfall</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/izmir/Selcuk-kalesi-İzmir-gezilesiyercom.jpg" class="image">
+                            <img src="images/gallery/thumbs/izmir/Selcuk-kalesi-İzmir-gezilesiyercom.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Selcuk Castle</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/izmir/Yedi-Uyuyanlar-Mağarası.jpg" class="image">
+                            <img src="images/gallery/thumbs/izmir/Yedi-Uyuyanlar-Mağarası.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Yedi Uyuyanlar Cave</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+
+            <!-- Six -->
+            <section class="wrapper style1 align-center">
+                <div class="inner">
+                    <h2>About Izmir
+                    </h2>
+                    <div class="items style1 medium onscroll-fade-in">
+                        <section>
+                            <span class="icon style2 major fa fa-check-circle-o"></span>
+                            <h3>Names and etymology</h3>
+                            <p align="justify">
+                                The modern name "İzmir" is the Turkish rendering of the original Greek name "Smyrna" (Σμύρνη).
+                                <br />
+                                <br />
+                                In medieval times, Westerners used forms like Smire, Zmirra, Esmira, Ismira, which was rendered as İzmir into Turkish, originally written as ايزمير with the Ottoman Turkish alphabet.
+
+                                <br />
+                                <br />
+                                In ancient Anatolia, the name of a locality called Ti-smurna is mentioned in some of the Level II tablets from the Assyrian colony in Kültepe (first half of the 2nd millennium BC), with the prefix ti- identifying a proper name, although it is not established with certainty that this name refers to modern-day İzmir.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa fa-history"></span>
+                            <h3>History</h3>
+                            <p align="justify">
+                                The city is one of the oldest settlements of the Mediterranean basin.
+                                <br />
+                                <br />
+                                The 2004 discovery of Yeşilova Höyük and the neighboring Yassıtepe, in the small delta of Meles River, now the Bornova plain, reset the starting date of the city's past further back than previously thought. 
+                                <br />
+                                <br />
+                                Findings from two seasons of excavations carried out in the Yeşilova Höyük by a team of archaeologists from İzmir's Ege University indicate three levels, two of which are prehistoric. Level 2 bears traces of early to mid-Chalcolithic, and Level 3 of Neolithic settlements. 
+                                <br />
+                                <br />
+                                These two levels would have been inhabited by the indigenous peoples of the area, very roughly, between 7th millennium BC to 4th millennium BC. 
+                                <br />
+                                <br />
+                                As the seashore receded with time, the site was later used as a cemetery. Several graves containing artifacts dating roughly from 3000 BC, and contemporary with the first city of Troy, were found.                            
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa fa-bar-chart"></span>
+                            <h3>Climalite</h3>
+                            <p align="justify">
+                                İzmir has a Mediterranean climate (Köppen climate classification: Csa), which is characterized by long, hot and dry summers; and mild to cool, rainy winters. 
+                                <br />
+                                <br />
+                                The total precipitation for İzmir averages 686 millimetres (27 in) per year; however, 77% of that falls during November through March. 
+                                <br />
+                                <br />
+                                The rest of the precipitation falls during April through May and September through October. There is very little rainfall from June to August.
+                                <br />
+                                <br />
+                                Maximum temperatures during the winter months are usually between 10 and 16 °C (50 and 61 °F). Although it is rare, snow can fall in İzmir from December to February staying for a period of hours rather than a whole day or more. 
+                                <br />
+                                <br />
+                                During summer, the air temperature can climb as high as 40 °C (104 °F) from June to September; however it is usually between 30 and 36 °C (86 and 97 °F).
+
+                                <br />
+                                <br />
+                                Record rain= 145.3 kg/m2 (29.09.2006)
+
+                                <br />
+                                <br />
+                                Record snow= 8.0 cm (04.01.1979)
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa-bolt"></span>
+                            <h3>Politics</h3>
+                            <p align="justify">
+                                The current Mayor of the İzmir Metropolitan Municipality is Aziz Kocaoğlu from the Republican People's Party (CHP), in office since 2004. He was re-elected in both 2009 and 2014. 
+                                <br />
+                                <br />
+                                His predecessor, the previous mayor Ahmet Piriştina (CHP) was first elected in 1999, but died of a heart attack in 2004.
+
+                                <br />
+                                <br />
+                                İzmir has traditionally been a stronghold for the CHP, the centre-left Kemalist political party which forms the main opposition in the Grand National Assembly of Turkey. 
+                                <br />
+                                <br />
+                                Being the third largest city in Turkey, İzmir is viewed as the CHP's most prized electoral stronghold, since the party has a more limited support base in both İstanbul and Ankara. Since the right-wing Justice and Development Party (AKP) gained power in 2002, the electorate of İzmir has been notorious for voting strongly in favour of the CHP in every general and local election.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa fa-pie-chart"></span>
+                            <h3>Sports</h3>
+                            <p align="justify">
+                                Several important international sports events have been held in İzmir:
+                                <br />
+                                26–28 April 2013 – 2012–13 FIBA EuroChallenge Final Four,<br />
+                                18–19 June 2011 – 2011 European Team Championships First League,<br />
+                                28 August – 2 September 2010 – Group D of the 2010 FIBA World Championship,<br />
+                                3–13 September 2009 – Groups A, C, E, Semifinals & Final of the 2009 Men's European Volleyball Championship<br />
+                                7–11 May 2008 – The 7th WTF World Junior Taekwondo Championship,<br />
+                                4–9 July 2006 – The 2006 European Seniors Fencing Championship,<br />
+                                14–23 July 2006 – The U20 European Basketball Championship for Men,<br />
+                                7–22 August 2005 – The 2005 Summer Universiade, the International University Sports Games,<br />
+                                2–7 September 2005 – Preliminary games of the 2005 European Women's Basketball Championship,<br />
+                                6–17 October 1971 – The 1971 Mediterranean Games.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa fa-exchange"></span>
+                            <h3>Economy</h3>
+                            <p align="justify">
+                                Trade through the city's port had a determinant importance for the economy of the Ottoman Empire at the beginning of the 19th century and the economic foundations of the early decades of Turkey's Republican era were also laid here in İzmir Economic Congress. 
+                                <br />
+                                <br />
+                                Presently, İzmir area's economy is divided in value between various types of activity as follows: 30.5% for industry, 22.9% for trade and related services, 13.5% for transportation and communication and 7.8% for agriculture. In 2008, İzmir provided 10.5% of all tax revenues collected by Turkey and its exports corresponded to 6% and its imports 4% of Turkey's foreign trade. 
+                                <br />
+                                <br />
+                                The province as a whole is Turkey's third largest exporter after Istanbul and Bursa, and the fifth largest importer. 85–90% of the region's exports and approximately one fifth of all Turkish exports are made through the Port of Alsancak with an annual container loading capacity of close to a million.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa-desktop"></span>
+                            <h3>Demographics</h3>
+                            <p align="justify">
+                                The period after the 1960s and the 1970s saw another blow to the fabric of İzmir, when local administrations tended to neglect İzmir's traditional values and landmarks. 
+                                <br />
+                                <br />
+                                For many inhabitants, this was as serious as the 1922 fire. Some administrators were not always in tune with the central government in Ankara and regularly fell short of government subsidies, and the city absorbed huge waves of immigration from inland Anatolia, causing a population explosion. 
+                                <br />
+                                <br />
+                                Today, it is not surprising that many inhabitants of İzmir (similar to residents of other prominent Turkish cities) look back with nostalgia to a cozier, more manageable city, which came to an end in the last few decades.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa-leaf"></span>
+                            <h3>Culture</h3>
+                            <p align="justify">
+                                İzmir International Fair[edit]
+İzmir International Fair
+İzmir prides itself with its busy schedule of trade fairs, exhibitions and congresses. 
+                                <br />
+                                <br />
+                                The fair and the festival are held in the compound of İzmir's vast inner city park named Kültürpark in the first days of September, and organized by İZFAŞ, a depending company of İzmir Metropolitan Municipality.
+
+Festivals, Cuisine..
+
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa fa-university"></span>
+                            <h3>Cityscape</h3>
+                            <p align="justify">
+                                Standing on Mount Yamanlar, the tomb of Tantalus was excavated by Charles Texier in 1835 and is an example of the historic traces in the region prior to the Hellenistic Age, along with those found in nearby Kemalpaşa and Mount Sipylus.
+                                <br />
+                                <br />
+                                The Agora of Smyrna is well preserved, and is arranged into the Agora Open Air Museum of İzmir, although important parts buried under modern buildings wait to be brought to light. 
+                                <br />
+                                <br />
+                                Serious consideration is also being given to uncovering the ancient theatre of Smyrna where St. Polycarp was martyred, buried under an urban zone on the slopes of Kadifekale. 
+                                <br />
+                                <br />
+                                It was distinguishable until the 19th century, as evident by the sketches done at the time. At top of the same hill stands an ancient castle, one of İzmir's landmarks.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seven -->
+            <section class="wrapper style1 align-center">
+                <div class="inner medium">
+                    <h2>Get in touch</h2>
+                    <form method="post" action="#">
+                        <div class="field half first">
+                            <label for="name">Name</label>
+                            <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="field half">
+                            <label for="email">Email</label>
+                            <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <asp:TextBox ID="txtMessage" runat="server" TextMode="MultiLine"></asp:TextBox>
+                        </div>
+                        <ul class="actions">
+                            <li>
+                                <asp:Button ID="btnSend" runat="server" Text="Send" OnClick="btnSend_Click" /><br />
+                                <asp:Label ID="lblInfo" runat="server" Text="Label"></asp:Label>
+                            </li>
+                        </ul>
+                    </form>
+
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="wrapper style1 align-center">
+                <div class="inner">
+                    <ul class="icons">
+                        <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.facebook.com/serhat.gunes.92" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                    </ul>
+                    <p>&copy; Serhat Güneş 2017</p>
+                </div>
+            </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </form>
+</body>
+</html>

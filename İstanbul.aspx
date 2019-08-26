@@ -1,0 +1,436 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="İstanbul.aspx.cs" EnableEventValidation="false" Inherits="İstanbul" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>İstanbul</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Wrapper -->
+        <div id="wrapper" class="divided">
+
+            <!-- One -->
+            <section class="banner style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
+                <div class="content">
+                    <h1>Istanbul</h1>
+                    <p class="major" align="justify">
+                        Istanbul is one of the 81 provinces of the city and country in Turkey and it is the most crowded, economic and socio-cultural most important city in the country. 
+                        <br />
+                        <br />
+                        The city ranks 34th in the world in terms of economic magnitude, the first in Europe according to the order of municipal boundaries in terms of population, and the sixth after Lagos in the world. 
+                        <br />
+                        <br />
+                        Istanbul is located in the north-west of Turkey, along the Marmara coast and the Bosphorus, to surround the Golden Horn. 
+                        <br />
+                        <br />
+                        Istanbul is an intercontinental city, the European side is called the European Side or the Rumeli Side, and the Asian Side is called the Asian Side or the Asian Side. 
+                        <br />
+                        <br />
+                        In the history, the western boundaries of Istanbul, which was first established on the peninsula on which the Marmara Sea, the Bosphorus and the Golden Horn were built on three sides, constituted the Istanbul Walls. 
+                        <br />
+                        <br />
+                        In the course of development and growth, the city has been expanded 4 times by constructing the walls more westward each time.
+                    </p>
+
+                </div>
+                <div class="image">
+                    <img src="images/istanbul.jpg" alt="" />
+                </div>
+            </section>
+            <!-- Five -->
+            <section class="wrapper style1 align-center">
+                <div class="inner">
+                    <h2>Places to Visit in Istanbul</h2>
+                </div>
+
+                <!-- Gallery -->
+                <div class="gallery style2 medium lightbox onscroll-fade-in">
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/Anadolu-Hisari.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/Anadolu-Hisari.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Anatolian Fortress</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/ayasofya-muzesi.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/ayasofya-muzesi.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Hagia Sophia Museum</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/ciragan-sarayi.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/ciragan-sarayi.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Ciragan Palace</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/Dolmabahçe_Palace.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/Dolmabahçe_Palace.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Dolmabahçe Palace</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/emirgan-korosu-resmi.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/emirgan-korosu-resmi.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Emirgan chorus</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/gulhane-parki.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/gulhane-parki.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Gulhane Park</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/haydarpasa-gari.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/haydarpasa-gari.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Haydarpasa Station</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/Hidiv-Kasri.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/Hidiv-Kasri.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Hidiv Kasri</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/kuzguncuk-evleri.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/kuzguncuk-evleri.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Kuzguncuk Houses</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/miniatürk-istanbul2.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/miniatürk-istanbul2.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Miniaturk Istanbul</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/pierre-loti-tepesi.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/pierre-loti-tepesi.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Pierre Loti</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/Süleymaniye-Camii.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/Süleymaniye-Camii.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Suleymaniye Mosque</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/topkapi-sarayi.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/topkapi-sarayi.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Topkapu Palace</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/Yedikule-Hisari.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/Yedikule-Hisari.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Yedikule Fortress</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="images/gallery/fulls/istanbul/yerebatan-sarnici.jpg" class="image">
+                            <img src="images/gallery/thumbs/istanbul/yerebatan-sarnici.jpg" alt="" />
+                        </a>
+                        <div class="caption">
+                            <h3>Yerebatan Cistern</h3>
+                            <ul class="actions">
+                                <li><span class="button small">Show</span></li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+
+            <!-- Six -->
+            <section class="wrapper style1 align-center">
+                <div class="inner">
+                    <h2>About Istanbul
+                    </h2>
+                    <div class="items style1 medium onscroll-fade-in">
+                        <section>
+                            <span class="icon style2 major fa fa-check-circle-o"></span>
+                            <h3>Toponymy</h3>
+                            <p align="justify">
+                                The first known name of the city is Byzantium (Greek: Βυζάντιον, Byzántion), the name given to it at its foundation by Megarean colonists around 660 BCE.<br />
+                                <br />
+                                The name is thought to be derived from a personal name, Byzas. Ancient Greek tradition refers to a legendary king of that name as the leader of the Greek colonists. 
+                                <br />
+                                <br />
+                                Modern scholars have also hypothesized that the name of Byzas was of local Thracian or Illyrian origin and hence predated the Megarean settlement.
+                                <br />
+                                <br />
+                                After Constantine the Great made it the new eastern capital of the Roman Empire in 330 CE, the city became widely known as "Constantinopolis" (Constantinople), which, as the Latinized form of "Κωνσταντινούπολις" (Konstantinoúpolis), means the "City of Constantine".
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa fa-history"></span>
+                            <h3>History</h3>
+                            <p align="justify">
+                                Neolithic artifacts, uncovered by archeologists at the beginning of the 21st century, indicate that Istanbul's historic peninsula was settled as far back as the 7th millennium BCE.
+                                <br />
+                                <br />
+                                That early settlement, important in the spread of the Neolithic Revolution from the Near East to Europe, lasted for almost a millennium before being inundated by rising water levels.
+                                <br />
+                                <br />
+                                The first human settlement on the Asian side, the Fikirtepe mound, is from the Copper Age period, with artifacts dating from 5500 to 3500 BCE, On the European side, near the point of the peninsula (Sarayburnu), there was a Thracian settlement during the early 1st millennium BCE. 
+                                <br />
+                                <br />
+                                Modern authors have linked it to the Thracian toponym Lygos, mentioned by Pliny the Elder as an earlier name for the site of Byzantium.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa fa-bar-chart"></span>
+                            <h3>Administrative divisions</h3>
+                            <p align="justify">
+                                Since 2004, the municipal boundaries of Istanbul have been coincident with the boundaries of its province.<br />
+                                <br />
+                                The city, considered capital of Istanbul Province, is administered by the Istanbul Metropolitan Municipality (MMI), which oversees the 39 districts of the city-province.
+
+                                <br />
+                                <br />
+                                The current city structure can be traced back to the Tanzimat period of reform in the 19th century, before which Islamic judges and imams led the city under the auspices of the Grand Vizier. 
+                                <br />
+                                <br />
+                                Following the model of French cities, this religious system was replaced by a mayor and a citywide council composed of representatives of the confessional groups (millet) across Istanbul. 
+                                <br />
+                                <br />
+                                Beyoğlu was the first area of the city to have its own director and council, with members instead being longtime residents of the neighborhood.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa-bolt"></span>
+                            <h3>Politics</h3>
+                            <p align="justify">
+                                Istanbul has voted for the winning party in general elections since 1995. Since 2002, the right-wing Justice and Development Party (AKP) has won pluralities in every general and local election. 
+    <br />
+                                <br />
+                                The city's electorate has also voted for the AKP government's constitutional reforms proposed during the 2007 and 2010 constitutional referenda. Turkish President and former AKP Prime Minister Recep Tayyip Erdoğan was elected Mayor of İstanbul in the 1994 local elections as the Islamist Welfare Party candidate with 25.1% of the vote, winning due to a vote split between the mainstream centrist parties. 
+    <br />
+                                <br />
+                                Conservative parties traditionally find support in older districts with high population densities such as Bağcılar, Fatih, Sultanbeyli and Esenler. The opposition Kemalist center-left Republican People's Party (CHP), currently the second major political force in both İstanbul and the country, gets most of its support from more rural districts such as Silivri, Çatalca and Sarıyer. Urban districts such as Beşiktaş, Bakırköy, Şişli and Kadıköy have returned strong support for the CHP in past elections.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa fa-pie-chart"></span>
+                            <h3>Geography</h3>
+                            <p align="justify">
+                                Istanbul is located in north-western Turkey within the Marmara Region on a total area of 5,343 square kilometers (2,063 sq mi). 
+    <br />
+                                <br />
+                                The Bosphorus, which connects the Sea of Marmara to the Black Sea, divides the city into a European, Thracian side—comprising the historic and economic centers—and an Asian, Anatolian side. 
+    <br />
+                                <br />
+                                The city is further divided by the Golden Horn, a natural harbor bounding the peninsula where the former Byzantium and Constantinople were founded. 
+    <br />
+                                <br />
+                                The confluence of the Sea of Marmara, the Bosphorus, and the Golden Horn at the heart of present-day Istanbul has deterred attacking forces for thousands of years and remains a prominent feature of the city's landscape.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa fa-exchange"></span>
+                            <h3>Economy</h3>
+                            <p align="justify">
+                                With a PPP-adjusted gross domestic product of US$301.1 billion, Istanbul ranked 29th among the world's urban areas in 2011. 
+                         <br />
+                                <br />
+                                Since the mid-1990s, Istanbul's economy has been one of the fastest-growing among OECD metro-regions. Istanbul is responsible for 27 percent of Turkey's GDP, with 20 percent of the country's industrial labor force residing in the city. 
+                         <br />
+                                <br />
+                                Its GDP per capita and productivity are greater than their national averages by 70 percent and 50 percent, respectively, owing in part to the focus on high-value-added activities.
+                         <br />
+                                <br />
+                                With its high population and significant contribution to the Turkish economy, Istanbul is responsible for two-fifths of the nation's tax revenue. 
+                         <br />
+                                <br />
+                                That includes the taxes of 37 US-dollar billionaires based in Istanbul, the fifth-highest number among cities around the world.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa-desktop"></span>
+                            <h3>Demographics</h3>
+                            <p align="justify">
+                                Throughout most of its history, Istanbul has ranked among the largest cities in the world. 
+    <br />
+                                <br />
+                                By 500 CE, Constantinople had somewhere between 400,000 and 500,000 people, edging out its predecessor, Rome, for world's largest city. 
+    <br />
+                                <br />
+                                Constantinople jostled with other major historical cities, such as Baghdad, Chang'an, Kaifeng and Merv for the position of world's most populous city until the 12th century. It never returned to being the world's largest, but remained Europe's largest city from 1500 to 1750, when it was surpassed by London.
+
+                                <br />
+                                <br />
+                                The Turkish Statistical Institute estimates that the population of Istanbul Metropolitan Municipality was 14,377,019 at the end of 2014, hosting 19 percent of the country's population. 
+    <br />
+                                <br />
+                                Other estimate that at the same time the population within city limits was 14,657,434. Then about 97–98% of the inhabitants of the metropolitan municipality were within city limits, up from 89% in 2007 and 61% in 1980.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa-leaf"></span>
+                            <h3>Culture</h3>
+                            <p align="justify">
+                                Istanbul was historically known as a cultural hub, but its cultural scene stagnated after the Turkish Republic shifted its focus toward Ankara. 
+    <br />
+                                <br />
+                                The new national government established programs that served to orient Turks toward musical traditions, especially those originating in Europe, but musical institutions and visits by foreign classical artists were primarily centered in the new capital. 
+    <br />
+                                <br />
+                                Much of Turkey's cultural scene had its roots in Istanbul, and by the 1980s and 1990s Istanbul reemerged globally as a city whose cultural significance is not solely based on its past glory.
+   <br />
+                                <br />
+                                By the end of the 19th century, Istanbul had established itself as a regional artistic center, with Turkish, European, and Middle Eastern artists flocking to the city. 
+    <br />
+                                <br />
+                                Despite efforts to make Ankara Turkey's cultural heart, Istanbul had the country's primary institution of art until the 1970s. 
+    <br />
+                                <br />
+                                When additional universities and art journals were founded in Istanbul during the 1980s, artists formerly based in Ankara moved in.
+                            </p>
+                        </section>
+                        <section>
+                            <span class="icon style2 major fa fa-university"></span>
+                            <h3>Cityscape</h3>
+                            <p align="justify">
+                                The Fatih district, which was named after Sultan Mehmed the Conqueror (Turkish: Fatih Sultan Mehmed), corresponds to what was, until the Ottoman conquest in 1453, the whole of the city of Constantinople (today called the historic peninsula of Istanbul) on the southern shore of the Golden Horn, across the medieval Genoese citadel of Galata on the northern shore. 
+    <br />
+                                <br />
+                                The Genoese fortifications in Galata were largely demolished in the 19th century, leaving only the Galata Tower, to make way for the northward expansion of the city. 
+    <br />
+                                <br />
+                                Galata (Karaköy) is today a quarter within the Beyoğlu (Pera) district, which forms Istanbul's commercial and entertainment center and includes İstiklal Avenue and Taksim Square.
+                            </p>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seven -->
+            <section class="wrapper style1 align-center">
+                <div class="inner medium">
+                    <h2>Get in touch</h2>
+                    <form method="post" action="#">
+                        <div class="field half first">
+                            <label for="name">Name</label>
+                            <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="field half">
+                            <label for="email">Email</label>
+                            <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <asp:TextBox ID="txtMessage" runat="server" TextMode="MultiLine"></asp:TextBox>
+                        </div>
+                        <ul class="actions">
+                            <li>
+                                <asp:Button ID="btnSend" runat="server" Text="Send" OnClick="btnSend_Click" /><br />
+                                <asp:Label ID="lblInfo" runat="server" Text="Label"></asp:Label>
+                            </li>
+                        </ul>
+                    </form>
+
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="wrapper style1 align-center">
+                <div class="inner">
+                    <ul class="icons">
+                        <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.facebook.com/serhat.gunes.92" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                    </ul>
+                    <p>&copy; Serhat Güneş 2017</p>
+                </div>
+            </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </form>
+</body>
+</html>
