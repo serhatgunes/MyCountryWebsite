@@ -10,7 +10,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("cssmin", function(code) {
       return new CleanCSS({}).minify(code).styles;
     });
-      // Minify JS
+  // Minify JS
   eleventyConfig.addFilter("jsmin", function(code) {
     let minified = UglifyJS.minify(code);
     if (minified.error) {
@@ -23,7 +23,7 @@ module.exports = function(eleventyConfig) {
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("_includes/assets/");
-
+  eleventyConfig.addPassthroughCopy("_includes/images/");
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
