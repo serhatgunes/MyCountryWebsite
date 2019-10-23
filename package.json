@@ -1,14 +1,26 @@
 {
-  "name": "my-country-website",
-  "version": "1.0.0",
-  "description": "demo project.",
+  "private": true,
   "scripts": {
-    "lite": "lite-server --port 10001",
-    "start": "npm run lite"
+    "test": "percy exec -- mocha tests/todomvc_spec.js",
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
   },
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "eleventy": "^0.2.0",
+    "html-minifier": "^4.0.0",
+    "htmlmin": "0.0.7",
+    "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^5.2.5",
+    "todomvc-app-css": "^2.2.0",
+    "todomvc-common": "^1.0.2"
+  },
   "devDependencies": {
-    "lite-server": "^1.3.1"
+    "@11ty/eleventy": "^0.8.2",
+    "chai": "^4.2.0",
+    "clean-css": "^4.2.1",
+    "http-server": "^0.11.1",
+    "mocha": "^6.2.0"
   }
 }
