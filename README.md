@@ -2,21 +2,19 @@
 
 ### Step 1: Install eleventy dependencies to generate static site
 
-Firstly we should install clean-css. If we don't we are getting an error when we run the serve.
+You can run this command to install eleventy. 
+```bash
+$ npm install -g @11ty/eleventy
+```
+Then you can run your serve with the following command. This command will generate a folder that named _site and will contain all project files.
+```bash
+$ npm run serve
+```
+Note that, While running serve you might be getting an error related to clean-css.
+You can install clean-css with the following command and try again to run serve.
 ```bash
 $ npm install --save-dev clean-css 
 ```
 
-Now we can install eleventy. 
-```bash
-$ npm install -g @11ty/eleventy
-```
-
-Last step for eleventy is that running serve.
-
-This command will add all files into _site folder.
-```bash
-$ npm run serve
-```
-Our environment will be running now http://localhost:8080
+If everything is okay our environment will be running now http://localhost:8080
 
