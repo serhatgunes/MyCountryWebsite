@@ -10,8 +10,8 @@ Then you can run your serve with the following command. This command will genera
 ```bash
 $ npm run serve
 ```
-Note that, While running serve you might be getting an error related to clean-css.
-You can install clean-css with the following command and try again to run serve.
+*Note that, While running serve you might be getting an error related to clean-css.
+You can install clean-css with the following command and try again to run serve.*
 ```bash
 $ npm install --save-dev clean-css 
 ```
