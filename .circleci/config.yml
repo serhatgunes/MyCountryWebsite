@@ -22,12 +22,12 @@ jobs:
       - run:
           name: INSTALL DEPENDENCIES
           command: |
-
+            npm install @11ty/eleventy --save-dev
             gem install percy-cli
 
       # run tests!
       - run:
           name: RUN TESTS
           command: |
-
+            npm run build
             percy snapshot _site
