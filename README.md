@@ -28,7 +28,32 @@ it will give you a sample config.yml file. Lets configure this file inside our p
 Create a folder named .circleci and add a file config.yml (so that the filepath be in .circleci/config.yml)
 
 ```python
-some config code
+# Ruby CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-ruby/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.4.1-node-browsers
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      
+      - run:
+          name: INSTALL DEPENDENCIES
+          command: |
+            npm install @11ty/eleventy --save-dev
+            gem install percy-cli
+
+      - run:
+          name: RUN TESTS
+          command: |
+            npm run build
+            percy snapshot _site
 ```
 
 Push changes.
