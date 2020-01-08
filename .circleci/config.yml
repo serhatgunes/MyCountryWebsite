@@ -20,14 +20,14 @@ jobs:
       - checkout
 
       - run:
-          name: install dependencies
+          name: INSTALL DEPENDENCIES
           command: |
             npm install
             gem install percy-cli
 
       # run tests!
       - run:
-          name: run tests
+          name: RUN TESTS
           command: |
             npm run build
             percy snapshot _site
