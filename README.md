@@ -39,6 +39,8 @@ In your CircleCI project, go to Project settings > Environment Variables.
 
 Then set PERCY_TOKEN from your Percy project. This token can be found in your Percy project's settings.
 
+We are ready to catch visual changes.
+
 
 
 
