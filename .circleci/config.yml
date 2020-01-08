@@ -22,7 +22,7 @@ jobs:
       - run:
           name: INSTALL DEPENDENCIES
           command: |
-            npm install
+            
             gem install percy-cli
 
       # run tests!
