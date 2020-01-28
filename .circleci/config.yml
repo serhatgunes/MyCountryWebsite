@@ -8,7 +8,7 @@ jobs:
   build:
     branches:
       only:
-        - test
+        -test
   build:
     docker:
       # Specify service dependencies here if necessary
