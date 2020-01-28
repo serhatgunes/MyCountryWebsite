@@ -8,9 +8,8 @@ jobs:
   build:
     branches:
       only:
-        - test
-jobs:
-  build:
+        test
+
     docker:
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
