@@ -33,11 +33,16 @@ Create a folder named .circleci and add a file config.yml (so that the filepath 
 # Check https://circleci.com/docs/2.0/language-ruby/ for more details
 #
 version: 2
+
 jobs:
   build:
+    branches:
+      only:
+        test
+
     docker:
       - image: circleci/ruby:2.4.1-node-browsers
-
+      
     working_directory: ~/repo
 
     steps:
@@ -49,11 +54,13 @@ jobs:
             npm install @11ty/eleventy --save-dev
             gem install percy-cli
 
+      # run tests!
       - run:
           name: RUN TESTS
           command: |
             npm run build
             percy snapshot _site
+
 ```
 
 Push changes.
