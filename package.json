@@ -1,7 +1,6 @@
 {
   "private": true,
   "scripts": {
-
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
     "serve": "npx eleventy --serve",
